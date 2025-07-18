@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スタッフ用管理ページ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>スタッフ管理画面</h1>
+  </header>
+
+  <section class="admin">
+    <label for="statusSelect">混雑状況を選択：</label>
+    <select id="statusSelect">
+      <option value="green">空いてる</option>
+      <option value="yellow">やや混雑</option>
+      <option value="red">混雑中</option>
+    </select>
+    <button onclick="updateStatus()">混雑状況を反映</button>
+  </section>
+
+<!-- 末尾に追加 -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/staff-protect.js"></script>
+<script src="js/staff-protect2.js"></script>
+</body>
+</html>
