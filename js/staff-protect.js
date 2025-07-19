@@ -31,7 +31,6 @@
     font-size: 60px;
     font-weight: 200;
     margin: 0px 0 50px 0;
-    text-shadow: 0 1px 0 #fff;
   }
 
   .errorContainer p {
