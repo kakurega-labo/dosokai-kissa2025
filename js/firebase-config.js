@@ -3,6 +3,7 @@
 const firebaseConfig = {
   apiKey: "AIzaSyBzl6UB-bN7BI58EZc1Mm2eTTYRDKWEnNo",
   authDomain: "dosokai-kissa.firebaseapp.com",
+  databaseURL: "https://dosokai-kissa-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "dosokai-kissa",
   storageBucket: "dosokai-kissa.firebasestorage.app",
   messagingSenderId: "165188890725",
