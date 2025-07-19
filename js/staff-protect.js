@@ -15,37 +15,37 @@
     // エラーデザイン挿入（スタイルはCSSへ移動済）
     const ghost = document.createElement('div');
     ghost.innerHTML = `
-        <style>
+   <style>
+  .errorContainer {
+    margin: 50px auto 40px auto;
+    width: 600px;
+    text-align: center;
+  }
 
-            .errorContainer {
-                margin: 50px auto 40px auto;
-                width: 600px;
-                text-align: center;
-            }
+  .errorContainer h1 {
+    width: 800px;
+    position: relative;
+    left: -100px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 200;
+    margin: 0px 0 50px 0;
+    text-shadow: 0 1px 0 #fff;
+  }
 
-            .errorContainer h1 {
-                width: 800px;
-                position: relative;
-                left: -100px;
-                letter-spacing: -1px;
-                line-height: 60px;
-                font-size: 60px;
-                font-weight: 200;
-                margin: 0px 0 50px 0;
-                text-shadow: 0 1px 0 #fff;
-            }
+  .errorContainer p {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    line-height: 1.6;
+  }
 
-            .errorContainer p {
-                color: rgba(0, 0, 0, 0.5);
-                margin: 20px 0;
-                line-height: 1.6;
-            }
-
-        </style>
+  </style>
         <div class="errorContainer">
             <h1>NOT 404</h1>
             <p><strong>お探しのページが見つかりません。</strong></p>
             <p>URLが正しく入力されていないか、このページが削除された可能性があります。</p>
+            <img src="image/cafe-logo.PNG" alt="ロゴ" class="logoimg">
 
         <div id="ghost-secret"></div>
       </div>
