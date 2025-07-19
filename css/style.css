@@ -1,3 +1,7 @@
+html {
+  touch-action: manipulation;
+}
+
 body {
   margin: 0;
   background: #fff8f0;
@@ -338,7 +342,7 @@ footer {
   height: 100vh;
   transition: left 0.3s ease;
   z-index: 998;
-  display: flex; /* 常にflexで、位置で表示制御 */
+  display: flex; 
 }
 
 .hamburger-menu button {
@@ -347,7 +351,8 @@ footer {
   gap: 0.3rem;
   border: none;
   background: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  color: #000;
   cursor: pointer;
   padding: 0.5rem;
   transition: background 0.2s ease;
