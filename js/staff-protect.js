@@ -44,12 +44,8 @@
         </style>
         <div class="errorContainer">
             <h1>NOT 404</h1>
-            <p>
-                <strong>お探しのページが見つかりません。</strong>
-            </p>
-            <p>
-                URLが正しく入力されていないか、このページが削除された可能性があります。
-            </p>
+            <p><strong>お探しのページが見つかりません。</strong></p>
+            <p>URLが正しく入力されていないか、このページが削除された可能性があります。</p>
 
         <div id="ghost-secret"></div>
       </div>
