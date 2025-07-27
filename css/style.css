@@ -619,9 +619,7 @@ footer {
 }
 
 .stall-calc-box {
-  max-width: 600px;
-  margin: auto;
-  padding: 1rem;
+  min-height: 610px;
 }
 .stall-header {
   display: flex;
