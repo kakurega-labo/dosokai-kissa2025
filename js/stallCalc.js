@@ -10,12 +10,12 @@ const STALL_MENU = [
   { name: "焼き鳥(つくね)", price: 80 },
   { name: "焼き鳥(もも)", price: 80 },
   { name: "焼き鳥(かわ)", price: 80 },
-  { name: "飲み物(ｵﾚﾝｼﾞ･ﾘﾝｺﾞ･ﾌｧﾝﾀｸﾞﾚｰﾌﾟ･緑茶)", price: 100 }
+  { name: "飲み物(ｵﾚﾝｼﾞ･ﾘﾝｺﾞ･ﾌｧﾝﾀ･緑茶)", price: 100 }
 ];
 
 const stallModalHTML = `
   <div class="modal-overlay" id="stallCalcModal">
-    <div class="modal-box stall-calc-box">
+    <div class="modal-box" id="stall-calc-box">
       <button class="modal-close" onclick="closeStallCalc()">
        <img src="image/Close.svg" alt="閉じる" class="modal-close-icon">
       </button>
