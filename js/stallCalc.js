@@ -7,10 +7,9 @@ const STALL_MENU = [
   { name: "かけそば・うどん", price: 250 },
   { name: "フランクフルト", price: 150 },
   { name: "いそべ焼き(3個入り)", price: 120 },
-  { name: "焼き鳥(つくね)", price: 80 },
-  { name: "焼き鳥(もも)", price: 80 },
-  { name: "焼き鳥(かわ)", price: 80 },
-  { name: "飲み物(ｵﾚﾝｼﾞ･ﾘﾝｺﾞ･ﾌｧﾝﾀ･緑茶)", price: 100 }
+  { name: "焼き鳥(ﾂｸﾈ･ﾓﾓ･ｶﾜ)", price: 80 },
+  { name: "飲み物(ｵﾚﾝｼﾞ･ﾘﾝｺﾞ･ﾌｧﾝﾀ･緑茶)", price: 100 },
+  { name: "ｻｰﾃｨﾜﾝｱｲｽ全７種", price: 300 }
 ];
 
 const stallModalHTML = `
