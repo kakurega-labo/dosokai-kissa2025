@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "image/menu_tea.jpeg",
       text: "紅茶です。ホットとアイスを選べます。"
     },
-    "ウーロン茶": {
+    "レモネード": {
       img: "image/menu_oolong.jpeg",
       text: "広く知られているあのウーロン茶です。"
     },
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "image/menu_cola.jpg",
       text: "キリッとした炭酸の効いた定番のコーラです。"
     },
-    "オレンジジュース": {
+    "リンゴジュース": {
       img: "image/menu_orange.jpeg",
       text: "果汁が少しは入っていると思うオレンジジュースです。"
     }
