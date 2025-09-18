@@ -116,9 +116,9 @@ const STAMP_SPOTS = [
   },
   {
     name: "駒場東大前駅",
-    lat: 35.888457003123364,
-    lng: 139.78610869183638,
-    image: "image/stamp1.png"
+    lat: 35.65888763724965,
+    lng: 139.68288235643766,
+    image: "image/stamp20.png"
   }
 ];
 
@@ -308,5 +308,6 @@ document.addEventListener('click', (e) => {
     showStampPopup(spot, true);
   }
 });
+
 
 
