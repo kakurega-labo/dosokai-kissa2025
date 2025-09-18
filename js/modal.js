@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "レモネード": {
       img: "image/menu_lemon.png",
-      text: "広く知られているあのウーロン茶です。"
+      text: "レモンと蜂蜜の甘さに茶葉を加えた爽快感と深みのあるレモネードです・"
     },
     "コーラ": {
       img: "image/menu_cola.jpg",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "リンゴジュース": {
       img: "image/menu_apple.png",
-      text: "果汁が少しは入っていると思うオレンジジュースです。"
+      text: "切り立てのりんご果実のような、やさしい味わいとすっきりとした後味が特長です。"
     }
   };
 
