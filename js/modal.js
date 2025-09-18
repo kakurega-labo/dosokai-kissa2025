@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "レモネード": {
       img: "image/menu_lemon.png",
-      text: "レモンと蜂蜜の甘さに茶葉を加えた爽快感と深みのあるレモネードです・"
+      text: "レモンと蜂蜜の甘さに茶葉を加えた爽快感と深みのあるレモネードです。"
     },
     "コーラ": {
       img: "image/menu_cola.jpg",
