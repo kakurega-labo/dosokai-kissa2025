@@ -103,13 +103,18 @@ section p {
   margin: 0.5rem 0;
   padding: 0.8rem;
   border-radius: 5px;
+  pointer-events: none;
 }
 
+
+
+/*
 @media screen and (min-width: 769px) {
   .menu li {
     pointer-events: none;
   }
 }
+*/
 
 .status #status-display {
   padding: 1rem;
