@@ -57,7 +57,7 @@
   } else {
     if (!document.querySelector('header')) {
       const header = document.createElement('header');
-      header.innerHTML = '<h1>スタッフ管理画面</h1>';
+      header.innerHTML = '<h1>混雑状況管理画面</h1>';
       body.insertBefore(header, body.firstChild);
     }
 
@@ -82,7 +82,7 @@
     loginForm.id = 'staff-login';
     loginForm.innerHTML = `
       <form onsubmit="return false;">
-        <h2>スタッフログイン</h2>
+        <h2>管理画面ログイン</h2>
         <input type="password" id="login-pass" placeholder="パスワード">
         <button id="login-btn">ログイン</button>
       </form>
