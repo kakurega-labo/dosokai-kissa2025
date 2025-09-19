@@ -1,7 +1,7 @@
 // スタンプラリーデータ（緯度・経度・名称・画像）
 const STAMP_SPOTS = [
   {
-    name: "正門",
+    name: "校門(正門)",
     lat: 35.6572625066728,
     lng: 139.68382422495296,
     image: "image/stamp1.png"
@@ -79,9 +79,9 @@ const STAMP_SPOTS = [
     image: "image/stamp13.png"
   },
   {
-    name: "駒場東大前(改札外)",
-    lat: 35.65888763724965,
-    lng: 139.68288235643766,
+    name: "校門(西門)",
+    lat: 35.65691768450169,
+    lng: 139.6846007104745,
     image: "image/stamp14.png"
   }
 ];
@@ -272,6 +272,7 @@ document.addEventListener('click', (e) => {
     showStampPopup(spot, true);
   }
 });
+
 
 
 
