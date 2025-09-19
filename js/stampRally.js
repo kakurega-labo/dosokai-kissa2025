@@ -4,31 +4,31 @@ const STAMP_SPOTS = [
     name: "校門(正門)",
     lat: 35.6572625066728,
     lng: 139.68382422495296,
-    image: "image/stamp1.PNG"
+    image: "image/stamp1.png"
   },
   {
     name: "100周年記念ﾎｰﾙ",
     lat: 35.6569297333858,
     lng: 139.6844358019007,
-    image: "image/stamp2.PNG"
+    image: "image/stamp2.png"
   },
   {
     name: "日駒図書館",
     lat: 35.65730573420405,
     lng: 139.6843191077632,
-    image: "image/stamp3.PNG"
+    image: "image/stamp3.png"
   },
   {
     name: "ストックヤード",
     lat: 35.65758033100841,
     lng: 139.68431374334367,
-    image: "image/stamp4.PNG"
+    image: "image/stamp4.png"
   },
   {
     name: "同窓会喫茶",
     lat: 35.65746007594574,
     lng: 139.68408098634129,
-    image: "image/stamp5.PNG"
+    image: "image/stamp5.png"
   },
   {
     name: "ｽﾁｭｰﾃﾞﾝﾄﾎｰﾙ",
@@ -40,43 +40,43 @@ const STAMP_SPOTS = [
     name: "玉龍の庭",
     lat: 35.65699124204114,
     lng: 139.6839069325878,
-    image: "image/stamp7.PNG"
+    image: "image/stamp7.png"
   },
   {
     name: "校舎屋上",
     lat: 35.65730573420405,
     lng: 139.6843191077632,
-    image: "image/stamp8.PNG"
+    image: "image/stamp8.png"
   },
   {
     name: "草むらの恐竜",
     lat: 35.65694595096603,
     lng: 139.6841495302091,
-    image: "image/stamp9.PNG"
+    image: "image/stamp9.png"
   },
   {
     name: "ミニSL",
     lat: 35.657352215603375,
     lng: 139.6838448624158,
-    image: "image/stamp10.PNG"
+    image: "image/stamp10.png"
   },
   {
     name: "自販機(B1階)",
     lat: 35.657354189696775,
     lng: 139.68469336995562,
-    image: "image/stamp11.PNG"
+    image: "image/stamp11.png"
   },
   {
     name: "売店",
     lat: 35.65707850244303,
     lng: 139.68452506133863,
-    image: "image/stamp12.PNG"
+    image: "image/stamp12.png"
   },
   {
     name: "光風塾",
     lat: 35.65823852632636,
     lng: 139.68341959993458,
-    image: "image/stamp13.PNG"
+    image: "image/stamp13.png"
   },
   {
     name: "校門(西門)",
@@ -272,6 +272,7 @@ document.addEventListener('click', (e) => {
     showStampPopup(spot, true);
   }
 });
+
 
 
 
