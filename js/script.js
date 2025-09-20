@@ -90,8 +90,8 @@
 
   const openPeriods = [
     { date: "2025-07-10", start: "18:00", end: "22:00" },
-    { date: "2025-09-20", start: "11:00", end: "16:00" },
-    { date: "2025-09-21", start: "11:00", end: "16:00" },
+    { date: "2025-09-20", start: "10:00", end: "16:00" },
+    { date: "2025-09-21", start: "10:00", end: "16:00" },
   ];
 
   const pad = n => n.toString().padStart(2, "0");
