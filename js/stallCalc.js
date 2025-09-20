@@ -1,15 +1,15 @@
 // js/stallCalc.js
 
 const STALL_MENU = [
-  { name: "焼きそば", price: 300 },
+  { name: "焼きそば", price: 350 },
   { name: "カレーライス", price: 350 },
-  { name: "トッピング天ぷら", price: 50 },
-  { name: "かけそば・うどん", price: 250 },
   { name: "フランクフルト", price: 150 },
-  { name: "いそべ焼き(3個入り)", price: 120 },
-  { name: "焼き鳥(ﾂｸﾈ･ﾓﾓ･ｶﾜ)", price: 80 },
-  { name: "飲み物(ｵﾚﾝｼﾞ･ﾘﾝｺﾞ･ﾌｧﾝﾀ･緑茶)", price: 100 },
-  { name: "ｻｰﾃｨﾜﾝｱｲｽ全７種", price: 300 }
+  { name: "かけそば・うどん", price: 250 },
+  { name: "いそべ焼き(3個入り)", price: 150 },
+  { name: "焼き鳥(ﾂｸﾈ･ﾓﾓ･ｶﾜ/各1本)", price: 100 },
+  { name: "焼き鳥(5本セット)", price: 400 },
+  { name: "たこ焼き(3個入り)", price: 50 },
+  { name: "ドリンク・かき揚げ(各1個)", price: 50 }
 ];
 
 const stallModalHTML = `
